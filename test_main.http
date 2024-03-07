@@ -1,0 +1,20 @@
+### Start a Conversation with JSON Body
+POST http://127.0.0.1:8000/start-conversation/
+Content-Type: application/json
+
+{
+  "job_position": "Software Developer",
+  "job_requirements": "Experience in Python and FastAPI"
+}
+
+### Generate Answer with Thread ID in Header
+POST http://127.0.0.1:8000/generate-answer/
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+X-Thread-ID: thread_CL31NPePJo8Y3WEX7MmbazbJ
+
+--WebAppBoundary
+Content-Disposition: form-data; name="audio_file"; filename="sample_audio.m4a"
+Content-Type: audio/mpeg
+
+< /Users/alankashkash/Documents/first_try.m4a
+--WebAppBoundary--
