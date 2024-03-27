@@ -1,10 +1,9 @@
 from pathlib import Path
-from openai import OpenAI
-import os
-client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
-)
+from AI_functions.utils import client
 
+"""
+This file contains all the audio-related functions - STT & TTS
+"""
 
 def generate_speech(text: str, question_number: str, thread_id: str) -> str:
     speech_file_path = Path(__file__).parent / f"../static/{thread_id}/Question_{question_number}.mp3"

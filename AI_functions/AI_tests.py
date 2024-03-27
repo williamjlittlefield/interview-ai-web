@@ -1,5 +1,9 @@
 from AI_functions.utils import wait_on_run, show_json, client
 
+"""
+This file contains an AI function simulating a user to answer the interview questions, so that the interview can be tested E2E.
+"""
+
 def generate_AI_answer(question, thread_id=None):
     if thread_id is None:
         run = client.beta.threads.create_and_run(

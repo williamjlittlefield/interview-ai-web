@@ -3,6 +3,10 @@ import os
 from AI_functions.utils import wait_on_run, show_json, client, log_message_to_file
 from AI_functions.AI_tests import generate_AI_answer
 
+"""
+This is a main file for the interactions with AI
+"""
+
 
 def simulate_interview(answer=None, job_position=None, job_requirements=None, thread_id=None):
     if thread_id is None:
