@@ -20,7 +20,7 @@ def wait_on_run(run, thread_id):
     return run
 
 
-def simulate_interview(answer=None, job_position=None, job_requirements=None, thread_id=None):
+def simulate_immediate_feedback_interview(answer=None, job_position=None, job_requirements=None, thread_id=None):
     if thread_id is None:
         run = client.beta.threads.create_and_run(
             assistant_id="asst_pO1QYgy918gWVrwdIH5aWELW",

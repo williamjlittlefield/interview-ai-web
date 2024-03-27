@@ -6,8 +6,8 @@ client = OpenAI(
 )
 
 
-def generate_speech(text: str, thread_id: str, question_number: str) -> str:
-    speech_file_path = Path(__file__).parent / f"../static/{thread_id}_{question_number}.mp3"
+def generate_speech(text: str, question_number: str, thread_id: str) -> str:
+    speech_file_path = Path(__file__).parent / f"../static/{thread_id}/Question_{question_number}.mp3"
     response = client.audio.speech.create(
       model="tts-1",
       voice="alloy",

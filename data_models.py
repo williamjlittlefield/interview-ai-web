@@ -6,11 +6,15 @@ class StartConversationInput(BaseModel):
     job_requirements: str
 
 
-class GenerateAnswerInput(BaseModel):
-    thread_id: str
-    # For audio files, we'll continue to use UploadFile directly in the endpoint
+class SummaryResponse(BaseModel):
+    summary: str
 
 
 class ConversationResponse(BaseModel):
     audio_file_url: str
+    thread_id: str
+    last_response: bool
+
+
+class EndConversationRequest(BaseModel):
     thread_id: str
