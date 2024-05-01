@@ -1,0 +1,87 @@
+Admin: Job position: Machine Learning Engineer 
+ Job requirements: Experience with PyTorch, Keras and Deep Learning architectures
+AI Recruiter: Hello and welcome to your job interview. I'm an AI agent here to discuss your application for the Machine Learning Engineer position. Let's dive in.
+
+Question 1: Can you tell me about a project you have worked on that utilized PyTorch, and what was your contribution to it?
+User: Can you repeat the question please?
+--------------------------------------------------------------------------------
+AI Recruiter: Of course.
+
+Question 1: Can you tell me about a project you have worked on that utilized PyTorch, and what was your contribution to it?
+User: Can you repeat the question please?
+--------------------------------------------------------------------------------
+AI Recruiter: Certainly. 
+
+Question 1: Can you tell me about a project you have worked on that utilized PyTorch, and what was your contribution to it?
+User: Can you repeat the question please?
+--------------------------------------------------------------------------------
+AI Recruiter: It seems there might be a misunderstanding. Let's move on to the next question to keep the flow of the interview.
+
+Question 2: How do you keep yourself updated with the latest trends and developments in deep learning and Keras?
+--------------------------------------------------------------------------------
+User: I spend a lot of time in front of the documentation and I try to keep up with all the latest updates. I basically have AI newsletters for all the deep learning updates. I like to watch what the industry is doing and for Keras specifically, well with Keras I watch the documentation mostly. I think all the latest changes in Keras follow what was discovered by the scientists recently. So by reading research papers I should have a grasp of what is soon to be implemented in Keras and obviously of course from time to time I will see what's the update and check the release notes.
+--------------------------------------------------------------------------------
+AI Recruiter: Thank you for sharing your approach to staying current with the developments in deep learning and Keras. It's great to hear that you actively engage with documentation, newsletters, and research papers to understand the latest updates and anticipated changes in Keras.
+
+Question 3: Deep learning architectures are crucial in machine learning projects. Could you describe a situation where you had to choose a specific architecture over another for a project, and why?
+--------------------------------------------------------------------------------
+User: Sure, so let me tell you the story of how I implemented Open Domain Question Answering System, commonly known now as Retrieval Augmented Generation. I initially started by having this endpoint from OpenAI service and then I basically had to build this whole system from the ground up, but then we also had to secure ourselves against a case where there were high stakes questions. So Open Domain Question Answering System works this way. User asks a question, then AI, one AI model retrieves the document that is most likely to answer that question, and then another model based on that document chunk that was fetched from the knowledge base answers the question, generating on top of it. And for some questions we just had to make sure that this will answer correctly. So we built a predefined answers for that and we built a second system, first, I mean like basically the very first system, the very first thing that a user would have to pass through. And it was FAQ system. In FAQ system, well, first the user would have to ask the question, but then AI model would basically compare the embedding of that question with the embedding of all predefined questions in the knowledge base, in the FAQ file, and see if it's very similar to our predefined questions. If the similarity is high, then it would use the predefined answer, otherwise it would go to other QA system. Eventually we discovered that it was better if we just use the second system or the QA system because FAQ system was flawed. So we had to kill it, but then it was very difficult to deal with the stakeholders there. Yeah, so basically that is my answer.
+--------------------------------------------------------------------------------
+AI Recruiter: Thank you for providing a detailed example of your experience with Open Domain Question Answering Systems and the decision-making process behind choosing specific architectures. The way you navigated through the challenges of integrating different systems and dealing with stakeholder expectations showcases your problem-solving skills and adaptability.
+
+Question 4: Machine learning projects often require collaborative effort. Could you describe how you have worked with cross-functional teams in the past, particularly in relation to integrating machine learning models into broader tech ecosystems?
+--------------------------------------------------------------------------------
+User: Sure, so let me tell you about the collaborative effort I had working in a cross-company team with Microsoft. That was when I worked at Rackit and the project we were working on was focused on using the latest text-to-image models and evaluate which one is the best and then apply different techniques to use these models in a production setting to generate product images for our products listings on Amazon. That was certainly an interesting experience. I worked in a team of around 10 people if I remember correctly, multiple engineers, project manager, data architect, and scrum master, and well, my experience was that it is just, it takes some leader to work in a bigger team, like I don't think we fully utilized the power that we had at our hands. We did deliver what was required from us, but I think we could deliver the same thing in a smaller team.
+--------------------------------------------------------------------------------
+AI Recruiter: Thank you for sharing your experience with collaborative projects, especially the one involving cross-company teamwork with Microsoft. It's insightful to hear about your perspective on team dynamics, leadership, and the challenges of optimizing team size for efficiency and effectiveness in delivering machine learning solutions.
+
+Question 5: Machine learning models can be complex and require extensive resources for training. Can you discuss a time when you had to optimize a model for better performance without significantly increasing computational resources?
+--------------------------------------------------------------------------------
+User: Sure, so I had to do that while we were working on iComply, this previously mentioned open domain question answering system where we struggled with problems like accuracy, accuracy of the model's answers to the question and to improve, well certainly increasing the size of the model held, but that increases the computational resources for that. One of the, I think one of the techniques we applied was to pre, yeah, I think we did the pre-processing of the questions. We did the pre-processing of the questions, trying to also analyze these questions a bit so that it would be better understood by the model. And then we also, we also noticed some issues with hacking the model, like people would ask, if people would ask what's the, what's the way to harass my colleagues, then the model would say, hey, no, no, we are not harassing anyone. But then if someone asked what's the best way to harass a colleague, then model would still reply with something bad. So in order to secure ourselves with that gap, we created a text document answering this question and gave it to the knowledge base. So this way model knew how to, how to defend itself with that knowledge that it got from the knowledge base.
+--------------------------------------------------------------------------------
+AI Recruiter: Thank you for detailing your approach to optimizing model performance in the iComply project, particularly the strategies you implemented for pre-processing questions and improving model security against malicious queries. It's clear you have a thoughtful approach to enhancing model efficiency and safeguarding against misuse without significantly increasing computational demands.
+
+Thank you for taking the time to discuss your experience and skills related to the Machine Learning Engineer position. This conversation has come to an end. I appreciate your thoughtful responses and look forward to the next steps in the selection process.
+
+End the interview.
+--------------------------------------------------------------------------------
+User: Is that the end of the conversation? Nothing more?
+--------------------------------------------------------------------------------
+AI Recruiter: This conversation has come to an end.
+--------------------------------------------------------------------------------
+User: Is that the end of the conversation? Nothing more?
+--------------------------------------------------------------------------------
+AI Recruiter: This conversation has come to an end.
+--------------------------------------------------------------------------------
+User: Is that the end of the conversation? Nothing more?
+--------------------------------------------------------------------------------
+AI Recruiter: This conversation has come to an end.
+--------------------------------------------------------------------------------
+User: Is that the end of the conversation? Nothing more?
+--------------------------------------------------------------------------------
+AI Recruiter: This conversation has come to an end.
+--------------------------------------------------------------------------------
+Summary: Here is a summary of the entire interview:
+
+1. **Question 1:** Can you tell me about a project you have worked on that utilized PyTorch, and what was your contribution to it?
+   - **Rating:** 1
+   - **Opinion:** The interviewee did not provide an answer to this question.
+
+2. **Question 2:** How do you keep yourself updated with the latest trends and developments in deep learning and Keras?
+   - **Rating:** 9
+   - **Opinion:** The interviewee demonstrated a proactive approach to staying updated with the latest trends in deep learning and Keras through documentation, newsletters, and research papers.
+
+3. **Question 3:** Deep learning architectures are crucial in machine learning projects. Could you describe a situation where you had to choose a specific architecture over another for a project, and why?
+   - **Rating:** 10
+   - **Opinion:** The interviewee provided a detailed account of their experience with an Open Domain Question Answering System, showcasing their decision-making skills in choosing and evaluating architectures.
+
+4. **Question 4:** Machine learning projects often require collaborative effort. Could you describe how you have worked with cross-functional teams in the past, particularly in relation to integrating machine learning models into broader tech ecosystems?
+   - **Rating:** 8
+   - **Opinion:** The interviewee shared insights on their experience working in a cross-company team with Microsoft, highlighting the importance of leadership and team optimization in achieving project goals.
+
+5. **Question 5:** Machine learning models can be complex and require extensive resources for training. Can you discuss a time when you had to optimize a model for better performance without significantly increasing computational resources?
+   - **Rating:** 9
+   - **Opinion:** The interviewee explained how they optimized a model's performance in the iComply project through smart pre-processing and security measures, demonstrating their capability to handle challenges resourcefully.
+
+This conversation has come to an end.
+--------------------------------------------------------------------------------
