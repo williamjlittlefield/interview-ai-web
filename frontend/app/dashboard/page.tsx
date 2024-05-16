@@ -4,6 +4,7 @@ import { useState, useRef } from 'react';
 import Footer from '../ui/footer';
 import Header from '../ui/header';
 import Button from '../ui/button';
+import Microphone from '../ui/microphone';
 
 export default function Dashboard() {
 
@@ -54,6 +55,8 @@ export default function Dashboard() {
                 {isPlaying ? 'Playing...' : 'Record Answer'}
               </Button>
             )}
+
+              <Microphone />    
 
           </div>
         </div>
