@@ -4,7 +4,7 @@ import bcrypt from 'bcrypt';
 import { authConfig } from './auth.config';
 import { z } from 'zod';
 import { sql } from '@vercel/postgres';
-import type { User } from '@/app/lib/definitions';
+import type { User } from '@/src/app/lib/definitions';
  
 async function getUser(email: string): Promise<User | undefined> {
   console.log('Get user called.');

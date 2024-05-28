@@ -1,16 +1,13 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
-import * as dotenv from "dotenv"; 
 import OpenAI from "openai";
-import { env } from "../../env";
-
-dotenv.config();
 
 const openai = new OpenAI({
-  apiKey: env.OPENAI_API_KEY,
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 export async function POST(req) {
+
   const body = await req.json();
 
   const base64Audio = body.audio;

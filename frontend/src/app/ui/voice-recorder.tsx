@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
-import { blobToBase64 } from "../utils/blobToBase64";
-import { createMediaStream } from "../utils/createMediaStream";
+import { blobToBase64 } from "../../utils/blobToBase64";
+import { createMediaStream } from "../../utils/createMediaStream";
 
 export const useRecordVoice = () => {
   const [text, setText] = useState("");
