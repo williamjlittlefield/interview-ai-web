@@ -1,4 +1,4 @@
-#!/Users/williamlittlefield/Documents/sandbox/billydoesstartups/interview-ai-web/virtual_backend/bin/python
+#!/Users/williamlittlefield/Documents/sandbox/billydoesstartups/interview-ai-web/backend/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
