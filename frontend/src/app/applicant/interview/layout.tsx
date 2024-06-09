@@ -5,8 +5,8 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Login to Interview AI",
-  description: "Enter your credentials to access Interview AI.",
+  title: "Your interview is active! – Interview AI",
+  description: "Your interview is now active on Interview AI.",
 };
 
 export default function RootLayout({
