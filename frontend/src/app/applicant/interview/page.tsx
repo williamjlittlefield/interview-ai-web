@@ -3,6 +3,7 @@
 import { useState, useRef } from 'react';
 import Footer from '../../ui/footer';
 import WebcamComponent from '../../ui/webcam';
+import InterviewerCard from '../../ui/interviewer-card';
 import Button from '../../ui/button';
 // import Microphone from '../../ui/microphone';
 
@@ -37,7 +38,10 @@ export default function Interview() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
+    <InterviewerCard />
+
     <WebcamComponent />
+
 
       {/* {!interviewStarted ? (
               <Button className="StartButton" onClick={startInterview}>
