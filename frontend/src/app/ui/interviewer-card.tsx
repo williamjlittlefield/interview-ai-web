@@ -15,9 +15,6 @@ export default function InterviewerCard() {
             </figure>
             <div className="card-body">
                 <h2 className="card-title">I'm your interviewer! Sam 😉</h2>
-                <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Start interview ▶</button>
-                </div>
             </div>
         </div>
     );
