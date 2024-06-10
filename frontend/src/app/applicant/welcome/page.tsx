@@ -15,7 +15,7 @@ export default function Welcome() {
 
         <Header />
        
-        <h1>Welcome to Interview AI!</h1>
+        <h1>Welcome to airecruit!</h1>
 
         <Button onClick={launchInterview} variant="primary">Launch Interview</Button>
 

@@ -8,7 +8,7 @@ export default function Thanks() {
 
         <Header />
        
-        <h1>Thank you for using Interview AI!</h1>
+        <h1>Thank you for using airecruit!</h1>
 
         <Footer />      
         

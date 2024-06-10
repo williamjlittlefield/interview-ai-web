@@ -20,7 +20,7 @@ export default function Header() {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">InterviewAI</a>
+                <a className="btn btn-ghost text-xl">airecruit</a>
             </div>
             {/* <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

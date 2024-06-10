@@ -11,7 +11,7 @@ export default function Footer() {
                     className="hidden md:block"
                     alt="A small microphone logo!"
                 />
-                <p>© 2024 Interview AI.<br />All rights reserved.</p>
+                <p>© 2024 airecruit.<br />All rights reserved.</p>
             </aside>
             <nav>
                 <a className="link link-hover">About</a>

@@ -5,8 +5,8 @@ import "../../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your interview is active! – Interview AI",
-  description: "Your interview is now active on Interview AI.",
+  title: "Your interview is active! – airecruit",
+  description: "Your interview is now active on airecruit.",
 };
 
 export default function RootLayout({
