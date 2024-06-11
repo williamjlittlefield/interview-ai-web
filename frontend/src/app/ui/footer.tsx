@@ -2,37 +2,26 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="footer p-10 bg-slate-300 text-base-content">
-            <aside>
-                <Image
-                    src="/airecruit.png"
-                    width={100}
-                    height={100}
-                    className="hidden md:block"
-                    alt="airecruit!"
-                />
-                <p>© 2024 airecruit.<br />All rights reserved.</p>
-            </aside>
-            <nav>
-                <a className="link link-hover">About</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Features</a>
-                <a className="link link-hover">FAQ</a>
-                <a className="link link-hover">Pricing</a>
-            </nav>
-            {/* <nav>
-                <h6 className="footer-title">Company</h6>
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
-            </nav>
-            <nav>
-                <h6 className="footer-title">Legal</h6>
-                <a className="link link-hover">Terms of use</a>
-                <a className="link link-hover">Privacy policy</a>
-                <a className="link link-hover">Cookie policy</a>
-            </nav> */}
+        <footer className="relative bg-gradient-to-br from-purple-600 to-blue-500 shadow-xl rounded-lg w-full p-10 text-white">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+                <aside className="mb-6 md:mb-0 flex flex-col items-center md:items-start">
+                    <Image
+                        src="/airecruit.png"
+                        width={100}
+                        height={100}
+                        className="hidden md:block"
+                        alt="airecruit!"
+                    />
+                    <p className="mt-2 text-center md:text-left">© 2024 airecruit.<br />All rights reserved.</p>
+                </aside>
+                <nav className="flex flex-col md:flex-row gap-4">
+                    <a className="link link-hover text-white">About</a>
+                    <a className="link link-hover text-white">Contact</a>
+                    <a className="link link-hover text-white">Features</a>
+                    <a className="link link-hover text-white">FAQ</a>
+                    <a className="link link-hover text-white">Pricing</a>
+                </nav>
+            </div>
         </footer>
     );
 }
