@@ -73,17 +73,17 @@ export default function Dashboard() {
                 <input type="file" name="file" ref={fileInput} />
               </label>
               <Button type="submit" onClick={uploadFile}>
-                Upload job description
+                Upload job description 📄
               </Button>
             </form>
 
-            <Button onClick={handleCreateJob} className="btn-primary">Create Job</Button>
+            <Button onClick={handleCreateJob} className="btn-primary">Create Job 💼</Button>
 
             <Button onClick={handleSendInvite} className="btn-primary">Copy Invite Link 📋</Button>
-            <Button onClick={handleSeeQuestions} className="btn-primary">See Questions</Button>
+            <Button onClick={handleSeeQuestions} className="btn-primary">See Questions ❔</Button>
 
-            <Button onClick={handleSeeAnswers} className="btn-primary">See Answers</Button>
-            <Button onClick={handleViewResults} className="btn-primary">View Results</Button>
+            <Button onClick={handleSeeAnswers} className="btn-primary">See Answers 🙋</Button>
+            <Button onClick={handleViewResults} className="btn-primary">View Results 📥</Button>
 
           </div>
         </div>
