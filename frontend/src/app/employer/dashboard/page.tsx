@@ -46,6 +46,8 @@ export default function Dashboard() {
 
   const handleSeeQuestions = () => {
     console.log('See Questions');
+    var win = window.open("/questions/Interview_Questions-Machine_Learning_Engineer.pdf", '_blank');
+    win.focus();
   }
 
   const handleSeeAnswers = () => {
@@ -54,6 +56,10 @@ export default function Dashboard() {
 
   const handleViewResults = () => {
     console.log('View Results');
+  }
+
+  const handleSyncWithATS = () => {
+    console.log('Sync with ATS');
   }
 
   return (
@@ -84,6 +90,8 @@ export default function Dashboard() {
 
             <Button onClick={handleSeeAnswers} className="btn-primary">See Answers 🙋</Button>
             <Button onClick={handleViewResults} className="btn-primary">View Results 📥</Button>
+
+            <Button onClick={handleSyncWithATS} className="btn-primary">Sync with Applicant Tracking System (ATS) 🔄</Button>
 
           </div>
         </div>
