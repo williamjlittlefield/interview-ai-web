@@ -79,7 +79,7 @@ export default function Dashboard() {
 
             <Button onClick={handleCreateJob} className="btn-primary">Create Job</Button>
 
-            <Button onClick={handleSendInvite} className="btn-primary">Send Invite</Button>
+            <Button onClick={handleSendInvite} className="btn-primary">Copy Invite Link 📋</Button>
             <Button onClick={handleSeeQuestions} className="btn-primary">See Questions</Button>
 
             <Button onClick={handleSeeAnswers} className="btn-primary">See Answers</Button>
