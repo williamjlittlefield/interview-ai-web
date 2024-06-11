@@ -15,7 +15,7 @@ export default function Welcome() {
 
         <Header />
        
-        <h1>Welcome to airecruit!</h1>
+        <h1>Welcome to <strong>airecruit!</strong></h1>
 
         <input type="text" placeholder="First name*" className="input input-bordered input-primary w-full max-w-xs" required />
         <input type="text" placeholder="Last name*" className="input input-bordered input-primary w-full max-w-xs" required />
