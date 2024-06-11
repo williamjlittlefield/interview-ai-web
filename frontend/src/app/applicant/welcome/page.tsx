@@ -17,7 +17,10 @@ export default function Welcome() {
        
         <h1>Welcome to airecruit!</h1>
 
-        <Button onClick={launchInterview} variant="primary">Launch Interview</Button>
+        <input type="text" placeholder="First name*" className="input input-bordered input-primary w-full max-w-xs" required />
+        <input type="text" placeholder="Last name*" className="input input-bordered input-primary w-full max-w-xs" required />
+
+        <Button onClick={launchInterview} className="btn-primary">Launch interview</Button>
 
         <Footer />      
         
