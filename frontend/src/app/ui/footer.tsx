@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="footer p-10 bg-base-200 text-base-content">
+        <footer className="footer p-10 bg-slate-300 text-base-content">
             <aside>
                 <Image
                     src="/airecruit.png"
                     width={100}
                     height={100}
                     className="hidden md:block"
-                    alt="A small microphone logo!"
+                    alt="airecruit!"
                 />
                 <p>© 2024 airecruit.<br />All rights reserved.</p>
             </aside>
